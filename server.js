@@ -113,7 +113,7 @@ function createTemplate(page)
     </head> 
      
     <body>  
-    	 <h1 class="main"><img src="abcd.jpg" height="100px" width="300px"></h1>
+    	 <h1 class="main"><img src="ui/abcd.jpg" height="100px" width="300px"></h1>
     	  <h4 class="add">
     	  Address:<br>
     	  abcd college of engineering,<br>
