@@ -5,7 +5,7 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-/*var register = {
+var register = {
 content1 : {
      body : `	  <h1 class="heading"><u>Admission Form</u></h1>
 	  
@@ -100,16 +100,16 @@ content2 : {`
     
 }
 
-};*/
+};
 
-/*function createTemplate(page)
+function createTemplate(page)
 {
     var body=page.body;
     var htmlTemplate = `<!DOCTYPE html>  
     <html>
      <head>
     <title>Registration form</title>  
-    <link rel='stylesheet' href='style.css' />   
+    <link rel='stylesheet' href='ui/style.css' />   
     </head> 
      
     <body>  
@@ -126,16 +126,16 @@ content2 : {`
     </html>  
     `;
     return htmlTemplate;
-}*/
+}
 
 
-/*app.get('/:registeform', function (req, res) {
+app.get('/:registeform', function (req, res) {
     var registerform = req.params.registerform;
   res.send(createTemplate(register[registerform]));
 });
-*/
 
-app.get('/register1.html', function (req, res) {
+
+/*app.get('/ui/register1.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'register1.html'));
 });
 
@@ -145,7 +145,7 @@ app.get('/ui/register2.html', function (req, res) {
 
 app.get('/ui/register3.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'register3.html'));
-});
+});*/
 
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
