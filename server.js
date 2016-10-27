@@ -135,7 +135,7 @@ app.get('/:registeform', function (req, res) {
 });
 
 
-/*app.get('/ui/register1.html', function (req, res) {
+app.get('/ui/register1.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'register1.html'));
 });
 
@@ -145,7 +145,7 @@ app.get('/ui/register2.html', function (req, res) {
 
 app.get('/ui/register3.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'register3.html'));
-});*/
+});
 
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
