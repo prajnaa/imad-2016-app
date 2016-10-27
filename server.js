@@ -135,7 +135,7 @@ content2 : {`
 });
 */
 
-app.get('/ui/register1.html', function (req, res) {
+app.get('/register1.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'register1.html'));
 });
 
