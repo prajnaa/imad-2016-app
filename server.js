@@ -98,14 +98,8 @@ content2 : {`
 		</ul>  
 	</form>`
     
-},
-content3 : {
-    	  `<strong><h1 style="margin-left:35%;color:red">CONGRATULATIONS!!!</h1></strong>
-	  <br><br>
-	  <strong><h2 style="margin-left:25%;color:red"> YOU HAVE COMPLETED THE REGISTRATION PROCESS...<h2></strong>
-	  <br>
-	  <h3 style="margin-left:35%">(Confirmation mail will be sent to you within a week)</h3>`
 }
+
 };
 
 function createTemplate(page)
