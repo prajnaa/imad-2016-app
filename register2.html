@@ -1,1 +1,61 @@
+<!DOCTYPE html>  
+<html>
+ <head>
+<title>Registration form</title>  
+<link rel='stylesheet' href='style.css'/>    
+</head> 
+ 
+<body onload="document.registration2.marks1.focus();">  
+	 <h1 class="main"><img src="ui/abcd.jpg" height="100px" width="300px"></h1>
+	  <h4 class="add">
+	  Address:<br>
+	  abcd college of engineering,<br>
+	  opposite xyz arcade,<br>
+	  Bangalore<br>
+	  Mobile:1234567892
+	  </h4>
+	  
+	  
+	  <h1 style="color:Red;margin-left:30px"><u>Admission Form</u></h1>
+	  
+	  <h3><marquee width="100%" behaviour="scroll" bgcolor="pink">Limited seats available!</marquee></h3>
+	  
+	<form name='registration2'> 
+	<fieldset>
+		 <legend>Academic Details</legend>
+		<ul>  
+			<li><label for="marks1">10th Marks(%):</label></li>
+			<li><input type="text" name="marks1" size="2"/></li>
+			
+			<li><label for="marks2">PU Marks(%):</label></li>
+			<li><input type="text" name="marks2" size="2"/></li>
+			
+			<li><label for="school">school name:</label></li>
+			<li><input type="text" name="school" size="50"/></li>
+			
+			<li><label for="clg">college name:</label></li>
+			<li><input type="text" name="clg" size="50"/></li>
+			
+			<li><label for="branch">choose branch:</label></li>  
+			<li><select name="branch">  
+				<option selected="" value="Default">(select a State)</option>  
+				<option value="cs">Computer Science</option>  
+				<option value="ec">Electronics and Communications</option>  
+				<option value="ee">Electronics and Electricals</option>  
+				<option value="me">Mechanical</option>  
+				<option value="cv">Civil</option>  
+			</select></li>  
+			
+			<li><label for="desc">Achievements:</label></li>  
+			<li><textarea name="desc" id="desc"></textarea></li>  
+			
+			<li><input type="button" name="submit" value="Submit" onclick="location.href='register3.html'" /></li>  
+		</ul> 
+		</fieldset>
+	</form>  
+</body>  
+</html>  
 
+
+
+			
