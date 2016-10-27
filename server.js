@@ -56,7 +56,7 @@ content1 : {
 			<li><input type="radio" name="ind" value="noen" /><span>NRI</span></li>
 			
 			
-			<li><input type="button" name="submit" value="Submit" onclick="location.href='register2.html'" /></li>  
+			<li><input class="button" type="button" name="submit" value="Submit" onclick="location.href='register2.html'" /></li>  
 		</ul>  
 	</form>  `
 },
@@ -94,7 +94,7 @@ content2 : {`
 			<li><label for="desc">Achievements:</label></li>  
 			<li><textarea name="desc" id="desc"></textarea></li>  
 			
-			<li><input type="button" name="submit" value="Submit" onclick="location.href='register3.html'" /></li>  
+			<li><input class="button" type="button" name="submit" value="Submit" onclick="location.href='register3.html'" /></li>  
 		</ul>  
 	</form>`
     
