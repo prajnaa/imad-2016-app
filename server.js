@@ -129,7 +129,7 @@ function createTemplate(page)
 }
 
 
-app.get('/:registeformr', function (req, res) {
+app.get('/:registeform', function (req, res) {
     var registerform = req.params.registerform;
   res.send(createTemplate(register[registerform]));
 });
